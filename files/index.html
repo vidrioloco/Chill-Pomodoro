@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <title>Chill Pomodoro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/images/logo.png" alt="Chill Pomodoro Logo">
+        </div>
+    </header>
+    <section class="main-container">
+        <div class="timer-container">
+            <h1>25:00</h1>
+        </div>
+        <div class="stats-item">
+            <button class="stats-button" id="short-break-button">short break</button>
+            <button class="stats-button" id="long-break-button">long break</button>
+            <button class="stats-button" id="custom-timer-button">custom timer</button>
+        </div>
+    </section> 
+    
+    <section class="music-control-container">
+        <div class="music-container">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/6zCID88oNjNv9zx6puDHKj?utm_source=generator&theme=0"
+                height="122" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+        <div class="button-container">
+            <button id="start-button">Start</button>
+            <button id="pause-button">Pause</button>
+        </div>
+        <div class="settings-container">
+            <button class="icon-button" id="reset-button"><i class="fas fa-redo"></i></button>
+            <button class="icon-button" id="settings-button"><i class="fas fa-cog"></i></button>
+        </div>
+
+    </section>
+
+    <footer class="footer-container">
+        <p>Made with ❤️ by <a href="https://github.com/vidrioloco">Samuel Membreño</a></p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
