@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chill Pomodoro is a simple and easy-to-use pomodoro timer that helps you stay focused and productive. It's designed to be a relaxing and enjoyable experience, with a soothing background and a calming timer.">
+    <meta name="keywords" content="Chill Pomodoro, pomodoro timer, productivity, relax, chill, timer, focus, productivity, relax, chill, timer, focus">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="/Chill-Pomodoro/images/favicon.ico">
     <title>Chill Pomodoro</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <img src="/images/logo.png" alt="Chill Pomodoro Logo">
+            <img src="/Chill-Pomodoro/images/logo.png" alt="Chill Pomodoro Logo">
         </div>
     </header>
     <section class="main-container">
         <div class="timer-container">
-            <h1>25:00</h1>
+            <h1 id="timer">30:00</h1>
         </div>
         <div class="stats-item">
             <button class="stats-button" id="short-break-button">short break</button>
@@ -34,12 +36,13 @@
             </iframe>
         </div>
         <div class="button-container">
+            <button id="Pomodoro">Pomodoro</button>
             <button id="start-button">Start</button>
             <button id="pause-button">Pause</button>
         </div>
         <div class="settings-container">
             <button class="icon-button" id="reset-button"><i class="fas fa-redo"></i></button>
-            <button class="icon-button" id="settings-button"><i class="fas fa-cog"></i></button>
+            <!-- <button class="icon-button" id="settings-button"><i class="fas fa-cog"></i></button> -->
         </div>
 
     </section>
